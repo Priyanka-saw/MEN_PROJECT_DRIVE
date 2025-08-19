@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
 </head>
 
@@ -49,14 +53,15 @@
             </div>
 
             
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5"
+            <button class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5"
             >Upload File</button>
             </form>
 
-            <button
+            <button 
+            class="absolute top-4 right-4 text-gray-500 dark:text-gray-400 text-xl"
             onclick="closePopUp()"
             >
-                close
+                <i class="ri-close-fill"></i>
             </button>
         </div>
     </main>
